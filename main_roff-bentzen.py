@@ -2,9 +2,9 @@ from chi_square import ChiSquare
 from matrix_perm import Permutation
 import random
 import math
-
+# number of permutations
 nperm = 1000
-
+# open the input file  
 with open('example.txt', 'r') as matrice:
     mat_oss = [i.split() for i in matrice]
 # call the class chi-square for the observed matrix
