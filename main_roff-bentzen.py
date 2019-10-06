@@ -1,4 +1,4 @@
-from ChiSquare import ChiSquare
+from chi_square import ChiSquare
 from matrix_perm import Permutation
 import random
 import math
