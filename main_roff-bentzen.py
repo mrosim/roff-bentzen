@@ -9,7 +9,7 @@ with open('example.txt', 'r') as matrice:
     mat_oss = [i.split() for i in matrice]
 # call the class chi-square for the observed matrix
 tc = ChiSquare(mat_oss)
-print(mat_oss)
+print('obs matrix:\n',mat_oss)
 # calculate the chi-square for the observed matrix
 x = tc.chi_square_tot()
 print('X2-observed =',x)
@@ -23,7 +23,7 @@ for t in range(nperm):
     xper = pmc.chi_square_tot()
     if xper > x:
         xvalues.append(xper)
-print(xvalues)
+print('X2 values higher than obs X2:', xvalues)
 n_rand_hchi = len(xvalues)
 pval = n_rand_hchi/nperm
 serr = math.sqrt(pval*(1-pval)/nperm)
