@@ -12,7 +12,7 @@ tc = ChiSquare(mat_oss)
 print(mat_oss)
 # calculate the chi-square for the observed matrix
 x = tc.chi_square_tot()
-print('X2-observed ='x)
+print('X2-observed =',x)
 # iterate N times a permutation, calculating the chi-square for each,
 # and comparing to the true one
 xvalues=[]
