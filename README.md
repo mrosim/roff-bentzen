@@ -12,4 +12,4 @@ To run the script:
 
 python3 main_roff-bentzen.py
 
-Warnings! Tested only on python v 3.7... lower versions of python results may be different (I've still to fix the problem).
+Warnings! Tested only on python v 3.7... lower versions of python may give different results (I've still to fix the problem).
